@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/mjkvbqln" method="POST">
+    <p></p>
+    <label>Digite suas Informações</label><br>
+    <input placeholder="Nome" name="Nome" type="text"  required="required"><br>
+    <input placeholder="Telefone" name="Telefone" type="text" required="required"><br>
+    <input placeholder="E-mail"  name="Email" type="text" required="required">
+    
+</p>
+<p>
+    <Label>Estado civil:</Label><br>
+    <select  required="required">
+        <option>Solteiro(a)</option>
+        <option>Enrolado(a)</option>
+        <option>Namorando</option>
+        <option>Casado(a)</option>
+        <option>Divorciado(a)</option>
+        <option>Viuvo(a)</option>
+    </select>
+</p>
+<p></p>
+    <label>Qual sua opiniao sobre minha pessoa?</label><br>
+    <textarea name="opiniao"></textarea>
+</p>
+<p>
+    <label>Comida favorita (escolha 2 no maximo)</label>
+    <ul>
+        <li><input value="SIM" name="hamburguer" type="checkbox">hamburguer</li>
+        <li><input value="SIM" name="Sushi" type="checkbox">Sushi</li>
+        <li><input value="SIM" name="Pizza" type="checkbox">Pizza</li>
+        <li><input value="SIM" name="strogonoff" type="checkbox">strogonoff</li>
+        <li><input value="SIM" name="churrasco" type="checkbox">churrasco</li>
+       
+    </ul>
+</p>
+
+<p>
+<label >Escolha sua cor favorita:</label><br>
+<ul>
+    <li><input value="Vermelho" name="corfavorita" type="radio">Vermelho</li>
+    <li><input value="Azul" name="corfavorita" type="radio">azul</li>
+    <li><input  value="Verde" name="corfavorita" type="radio">Verde</li>
+    <li><input  value="Preto" name="corfavorita" type="radio">preto</li>
+    <li><input  value="branco" name="corfavorita" type="radio">Branco</li>
+    <li><input  value="Amarelo" name="corfavorita" type="radio">Amarelo</li>
+    <li><input  value="Roxo" name="corfavorita" type="radio">Roxo</li>
+</ul>
+</p>
+<p>
+    <label>Escolha sua cidade:</label><br>
+    <select name="select">
+        <option>São Paulo</option>
+        <option>Curitiba</option>
+        <option>Rio de Janeiro</option>
+        <option>Maringá</option>
+        <option>Nova Esperança</option>
+        <option>Paranavaí</option>
+    </select>
+</p>
+<p>
+    <label >Quais são seus hobbys:</label>
+    <ul>
+        <li><input required="required" value="Escutar" name="Hobby" type="radio">Escutar musica</li>
+        <li><input required="required" value="Dormir" name="Hobby" type="radio">Dormir</li>
+        <li><input required="required" value="Academia" name="Hobby" type="radio">Academia</li>
+        <li><input required="required" value="Esportes" name="Hobby" type="radio">esportes</li>
+        <li><input required="required" value="Comer" name="Hobby" type="radio">Comer</li>
+        <li><input required="required" value="Estudar" name="Hobby" type="radio">Estudar</li>
+    </ul>
+</p>
+<p>
+    <label>O que faz no seu tempo livre?</label><br>
+    <textarea required="required" name="tempo livre"></textarea>
+</p>
+<p>
+    <label>Esse foi meu primeiro formulario <br>
+        Gostaria de deixar sua opinião?
+    </label><br>
+    <textarea name="Criticas"></textarea> <br>
+    <button type="submit">Enviar</button>
+</p>
+</form>
+</body>
+</html>
